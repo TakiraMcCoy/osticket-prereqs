@@ -51,6 +51,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 Step 1:
+
+
 -Setup the virtual machine in Azure by first creating a resource group.
 
 
