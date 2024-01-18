@@ -52,14 +52,32 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 Step 1:
 -Setup the virtual machine in Azure by first creating a resource group.
+
+
 -Name the resource group and select the region.
+
+
 -Then create the first Virtual machine within the this RG.
+
+
 -It should be a Windows 10 computer with 2-4 Virtual CPUs.
+
+
 -Create the user name and password for logging into this VM.
+
+
 -When creating the VM, under the networking tab, allow the Virtual Network (Vnet) to generate before continuing.
+
+
 -Then go on to create the 2nd virtual machine following the same steps for VM1 but this will be an Ubuntu computer.
+
+
 -In the Resource group tab select Vm1 to retrieve the public IP address and copy it.
+
+
 -Search Remote desktop in the windows search bar.
+
+
 -When remote desktop is launched paste the public Ip address and login with the username and password created in the virtual machine setup
 
 
@@ -187,13 +205,18 @@ Step 7:
 
 -Select (C:)/inetpub/wwwroot/osTicket/include.
 
+
 -Rename "ost-sampleconfig.php" to "os-config.php". 
+
 
 -Right click and select properties/security/advanced/disable inheritance.
 
+
 -Select "Remove all inherited permissions from this object"/add/select a principle.
 
+
 -Type "everyone"/click "check names"/"ok".
+
 
 -Set permissions to Full control/"ok"/"apply"/"ok".
 
