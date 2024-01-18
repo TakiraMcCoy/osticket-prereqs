@@ -105,9 +105,20 @@ The window that opens will allow you to enable and install feautures.
 <img width="314" alt="Screen Shot 2024-01-17 at 11 28 05 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/d7c08eab-e1cf-4500-9dd1-ef111d06cd68">
 <img width="376" alt="Screen Shot 2024-01-17 at 11 28 45 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/2bfca96d-b154-4f6d-80b9-e974bac804a5">
 
+![Screenshot 2024-01-18 135616](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/89992002-999f-459d-b27e-e99f176fde2b)
+![Screenshot 2024-01-18 135653](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/6bebf980-4566-4640-9197-9ec4cef17144)
+![Screenshot 2024-01-18 135730](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/87a55efd-c41b-48bd-94c2-18cb7146c51e)
+![Screenshot 2024-01-18 135752](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/19ec5dbb-94c6-4840-bf72-0685ac97b517)
+![Screenshot 2024-01-18 135818](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/0cfac480-22c2-4951-8e11-4b8e15ab86f9)
+![Screenshot 2024-01-18 135910](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/2826297c-3c3d-42b0-ab8b-4891cf4fab6b)
+
+
+
 
 Step 3:
-Download and install all prerequisites  
+Download and install all prerequisites
+
+
 
 
 <img width="568" alt="Screen Shot 2024-01-17 at 11 30 50 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/f339366a-17cc-4d31-967a-afab77d9cf75">
