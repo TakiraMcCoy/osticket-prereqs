@@ -35,8 +35,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img width="618" alt="Screen Shot 2024-01-17 at 11 03 25 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/e21637ca-503c-4d6d-a106-1fed71b1689b">
 <img width="563" alt="Screen Shot 2024-01-17 at 11 04 04 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/f3be7d92-da24-4c83-b40a-d3b8ca8adb9f">
 
-
-<img width="563" alt="Screen Shot 2024-01-17 at 11 04 04 PM" <img width="605" alt="Screen Shot 2024-01-17 at 11 04 40 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/e83574c8-b9ab-4c3e-8997-6fa1f985101e">
+<img width="605" alt="Screen Shot 2024-01-17 at 11 04 40 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/e83574c8-b9ab-4c3e-8997-6fa1f985101e">
 <img width="511" alt="Screen Shot 2024-01-17 at 11 05 15 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/d04644b1-c613-4b4c-87c5-210adfff6c3f">
 <img width="609" alt="Screen Shot 2024-01-17 at 11 07 51 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/4510c595-627a-4904-907a-3d316861c906">
 <img width="581" alt="Screen Shot 2024-01-17 at 11 08 56 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/9c33c172-036e-4c65-8489-b28fb1abecf2">
