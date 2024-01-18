@@ -253,6 +253,12 @@ Login into osTicket with Username and password created in installer.
 <img width="451" alt="Screen Shot 2024-01-18 at 12 00 03 AM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/d52de009-2224-47bf-ba96-5a459466c7d4">
 <img width="537" alt="Screen Shot 2024-01-18 at 12 01 09 AM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/cd3cc16d-5d2d-460f-b09e-16173570d9e4">
 
+Step 10:
+Clean up: (C:)/inetpub/wwwroot/osTicket/delete setup folder
+
+Right click "os-config.php/properties/security/edit/set permissions read only/"apply"/"ok"
+
+
 
 
 
