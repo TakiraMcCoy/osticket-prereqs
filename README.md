@@ -49,35 +49,19 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
+
 Step 1:
+-Setup the virtual machine in Azure by first creating a resource group.
+-Name the resource group and select the region.
+-Then create the first Virtual machine within the this RG.
+-It should be a Windows 10 computer with 2-4 Virtual CPUs.
+-Create the user name and password for logging into this VM.
+-When creating the VM, under the networking tab, allow the Virtual Network (Vnet) to generate before continuing.
+-Then go on to create the 2nd virtual machine following the same steps for VM1 but this will be an Ubuntu computer.
+-In the Resource group tab select Vm1 to retrieve the public IP address and copy it.
+-Search Remote desktop in the windows search bar.
+-When remote desktop is launched paste the public Ip address and login with the username and password created in the virtual machine setup
 
-Setup the virtual machine in Azure by first creating a resouce group.
-
-
-Name the resouce group and select the region.
-
-
-Then create the first Virtual machine within the this RG.
-
-
-It should be a Windows 10 computer with 2-4 Virtual CPUs.
-
-
-Create the user name and password for loging into this VM.
-
-
-When creating the VM, under the networking tab, allow the Virtual Network (Vnet) to generate before continuing.
-
-
-Then go on to create the 2nd virtual machine following the same steps for VM1 but this will be an Ubuntu computer.
-
-
-In the Resource group tab select Vm1 to retrive the public IP address and copy it.
-
-Search Remote desktop in the windows search bar.
-
-
-When remote desktop is launched paste the public Ip address and login with the username and password created in the virtual machine setup.
 
 <img width="243" alt="Screen Shot 2024-01-17 at 11 19 45 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/cd7fa8ab-960e-45b4-bd31-4782bd29d361">
 <img width="354" alt="Screen Shot 2024-01-17 at 11 20 12 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/5df27984-411d-4952-9034-51a8bb253f69">
@@ -90,13 +74,14 @@ When remote desktop is launched paste the public Ip address and login with the u
 
 
 Step 2:
-Enable Internet Informations Services(IIS).
 
-In the vitual machine right click the windows icon/run/type control.
+-Enable Internet Informations Services(IIS).
 
-In the "control panel" window select "programs" and "turn windows features on and off".
+-In the virtual machine right click the windows icon/run/type control.
 
-The window that opens will allow you to enable and install feautures.
+-In the "control panel" window select "programs" and "turn windows features on and off".
+
+-The window that opens will allow you to enable and install features.
 
 
 <img width="427" alt="Screen Shot 2024-01-17 at 11 26 35 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/d5fe7377-d7d4-432b-b66a-74747ef485e7">
@@ -115,8 +100,8 @@ The window that opens will allow you to enable and install feautures.
 
 
 Step 3:
-Download and install all prerequisites
 
+-Download and install all prerequisites except Heidi SQL
 
 
 
@@ -127,7 +112,9 @@ Download and install all prerequisites
 
 
 Step 4:
-Create "PHP" folder in (C:) and extract  PHP 7.3.8 into it.
+
+
+-Create "PHP" folder in (C:) and extract PHP 7.3.8 into it.
 
 
 
@@ -145,12 +132,14 @@ Create "PHP" folder in (C:) and extract  PHP 7.3.8 into it.
 
 
 Step 5:
-Launch IIS/Select PHP Manager/Register new PHP version.
-
-select the "PHP" folder created and open "php-cgi" to register "PHP Manager".
 
 
-Restart "IIS".
+-Launch IIS/Select PHP Manager/Register new PHP version.
+
+-select the "PHP" folder created and open "php-cgi" to register "PHP Manager".
+
+
+-Restart "IIS".
 
 
 
@@ -165,15 +154,17 @@ Restart "IIS".
 
 
 Step 6:
-Open the "osTicket folder" and copy the "upload folder" into th"wwwroot" folder.
 
-Restart "IIS".
 
-Select the drop down arrow for "default web site" and select osTicket.
+-Open the "osTicket folder" and copy the "upload folder" into "wwwroot" folder.
 
-In the right panel select “Browse *:80”. 
+-Restart "IIS".
 
-This will launch "osTicket installer".
+-Select the drop down arrow for "default web site" and select osTicket.
+
+-In the right panel select “Browse *:80”. 
+
+-This will launch "osTicket installer".
 
 
 
@@ -192,18 +183,19 @@ This will launch "osTicket installer".
 
 
 Step 7:
-Select (C:)/inetpub/wwwroot/osTicket/include.
 
-Rename "ost-sampleconfig.php" to "os-config.php". 
 
-Right click and select properties/security/advanced/disable inheiretance.
+-Select (C:)/inetpub/wwwroot/osTicket/include.
 
-Select "Remove all inheireted permissions from this object"/add/select a principle.
+-Rename "ost-sampleconfig.php" to "os-config.php". 
 
-Type "everyone"/click "check names"/"ok".
+-Right click and select properties/security/advanced/disable inheritance.
 
-Set permissions to Full control/"ok"/"apply"/"ok".
+-Select "Remove all inherited permissions from this object"/add/select a principle.
 
+-Type "everyone"/click "check names"/"ok".
+
+-Set permissions to Full control/"ok"/"apply"/"ok".
 
 
 
@@ -214,14 +206,15 @@ Set permissions to Full control/"ok"/"apply"/"ok".
 <img width="664" alt="Screen Shot 2024-01-17 at 11 52 15 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/1f254bc4-d91d-46ce-bb17-2d56a048bf96">
 
 Step 8:
-IIS/PHPManger/"enable or disable an extension".
+
+-IIS/PHPManger/"enable or disable an extension".
 
  
-Enable: php_imap.dll
-Enable: php_intl.dll
-Enable: php_opcache.dll
+-Enable: php_imap.dll
+-Enable: php_intl.dll
+-Enable: php_opcache.dll
 
-Refresh "osTicket installer"/Continue istallation.
+-Refresh "osTicket installer"/Continue installation.
 
 
 
@@ -239,19 +232,21 @@ Refresh "osTicket installer"/Continue istallation.
 <img width="695" alt="Screen Shot 2024-01-17 at 11 59 05 PM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/2290086d-906d-4e4a-a6e1-d132c52e172e">
 
 Step 9:
-Install Heidi SQL to complete installtion.
-Select "new".
 
 
-login it with the password created in MySQL and select "open".
+-Install Heidi SQL to complete installation.
 
-Right click "Unnamed"/create new/database/name database "osTicket"/"ok" 
-
-Finish installtion.
+-Select "new".
 
 
-Login into osTicket with Username and password created in installer.
+-login it with the password created in MySQL and select "open".
 
+-Right click "Unnamed"/create new/database/name database "osTicket"/"ok" 
+
+-Finish installation.
+
+
+-Login into osTicket with Username and password created in installer.
 
 
 
@@ -264,9 +259,9 @@ Login into osTicket with Username and password created in installer.
 <img width="537" alt="Screen Shot 2024-01-18 at 12 01 09 AM" src="https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/cd3cc16d-5d2d-460f-b09e-16173570d9e4">
 
 Step 10:
-Clean up: (C:)/inetpub/wwwroot/osTicket/delete setup folder
+-Clean up: (C:)/inetpub/wwwroot/osTicket/delete setup folder
 
-Right click "os-config.php/properties/security/edit/set permissions read only/"apply"/"ok"
+-Right click "os-config.php/properties/security/edit/set permissions read only/"apply"/"ok"
 
 
 
