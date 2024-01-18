@@ -37,13 +37,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 ![Screenshot 2024-01-08 161333](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/1b7a7552-86e3-4d53-9403-b2fec05eece0)
 ![Screenshot 2024-01-08 161542](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/d380738d-9d62-4525-b4ed-b017ae689957)
 ![Screenshot 2024-01-08 161646](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/6d8fba19-b555-4774-a7dc-9679880b942f)
-![Screenshot 2024-01-08 161646](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/145c53b2-69c2-43a4-b440-8734c5266634)
-![Screenshot 2024-01-08 161411](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/698bf4bc-5e72-4e34-a40c-763b61a8c665)
-![Screenshot 2024-01-08 162514](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/5a4d2e76-b2ae-4f65-b601-ec43013d74d1)
 ![Screenshot 2024-01-08 163240](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/e1ab17db-0d1b-419b-be17-7e0297eb6fce)
 ![Screenshot 2024-01-08 163326](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/783cdd4b-9a42-4529-a8dd-51573394803c)
 ![Screenshot 2024-01-10 124446](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/1ad168ca-72bd-4e67-a1fe-31abdcc1372b)
-![Screenshot 2024-01-12 001850](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/add7c42b-3463-42cb-b066-78411f77d1c1)
+
+Create your first virtual machine: 
+Name resource group and put it in your specific region,Virtual machine #1 should be Windows 10 computer with 2 to 4 vCPUs, and allow it to generate a new Vnet
+Virtual Machine 2:
+This VM should be a Ubuntu computer
+    
 ![Screenshot 2024-01-12 001850](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/ba0264c4-6fb1-4403-a2cf-81cda3c00797)
 ![Screenshot 2024-01-12 001931](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/afdf99fb-c149-43bb-bbc6-e25948251768)
 ![Screenshot 2024-01-12 002021](https://github.com/TakiraMcCoy/osticket-prereqs/assets/155402684/b0a03c42-bc64-4a4c-bf22-1a0b54a143ee)
